@@ -1,4 +1,4 @@
 ## Welcome to Introduction to programming
 
 
-[Link](day1.md)
+[Day 1](day1.md)

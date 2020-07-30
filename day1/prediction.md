@@ -26,4 +26,4 @@ for day in schedule
 
 drop(student)
     dropers.add(student)
-    
+``` 

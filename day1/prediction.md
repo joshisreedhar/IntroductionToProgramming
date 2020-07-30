@@ -11,9 +11,9 @@ for day in schedule
 
     attendClasses()
 
-    If focus() && practice()
+    If attend() && focus() && practice()
         Interest = interest +3
-    Else If attend()
+    Else If attend() && (!focus() || !practice)
         Interest = interest -1
     Else If !attend()
         Interest = interest -3

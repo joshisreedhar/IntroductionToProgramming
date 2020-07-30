@@ -1,6 +1,5 @@
-
-1. [Objectives](Objective.md)
+1. [Objectives](day1/objective.md)
 2. Review Submitted Code
-3. [Prediction](prediction.md)
-4. [Programming](programming.md)
+3. [Prediction](day1/prediction.md)
+4. [Programming](day1/programming.md)
 5. [Naming/Variables](day1/variables.md)

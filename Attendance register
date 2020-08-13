@@ -1,0 +1,26 @@
+def stat(x):
+   f=input("Type the name to find his/her attendance status:")
+   status=f.title()
+   print("The mentioned student is ",att[status])
+att={}
+print("No of students in class")
+j=0
+k=0
+i=int(input())
+while j<i:
+	n=input("Name of student \n")
+	Name=n.title()
+	p=input("Is the student Present or Absent(P/A)?\n")
+	s=p.title()	
+	if s=="P" or s=="A":
+		att[Name]=s
+		k=k+1
+	else:
+		print("invalid attendance")
+	j=j+1
+print(att)
+print("Total Number of students in class- ",k)
+y=input("Do wish to know anyone's attendance(Y/N)?")
+x=y.title()
+if x=="Y":
+   stat(x)

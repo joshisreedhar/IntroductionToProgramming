@@ -1,0 +1,7 @@
+n=int(input())
+i=0
+while i<n:
+	for j in range (0,i+1):
+		print("*",end=" ")
+	i=i+1
+	print("\r")
